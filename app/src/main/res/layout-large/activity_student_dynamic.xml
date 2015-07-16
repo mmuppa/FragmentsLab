@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <fragment
+        android:name="edu.uw.tacoma.mmuppa.fragmentslab.StudentListFragment"
+        android:layout_height="match_parent"
+        android:id="@+id/student_list_fragment"
+        android:layout_weight="1"
+        android:layout_width="0dp" >
+    </fragment>
+    <fragment
+        android:name="edu.uw.tacoma.mmuppa.fragmentslab.StudentFragment"
+        android:layout_height="match_parent"
+        android:id="@+id/student_item_fragment"
+        android:layout_weight="1"
+        android:layout_width="0dp" >
+    </fragment>
+</LinearLayout>
